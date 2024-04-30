@@ -1,0 +1,49 @@
+.icon-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 70vh;
+    background-color: #f0f0f0;
+}
+
+.features-icon {
+    width: 20%;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.features-icon .icons {
+    font-size: 5rem;
+    text-align: center;
+    color: #007bff;
+}
+
+.features-icon .heading {
+    text-align: center;
+    font-size: 15px;
+}
+
+.features-icon .para {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .icon-container {
+        height: auto;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .features-icon {
+        width: 80%;
+    }
+}
